@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("images/bg-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    padding: 0 3%;
+    background-size:initial;
+    height: 42vh;
+
+}
+
+.container{
+    display: flex;
+}
+
+header{
+    height: 9vh;
+    width: 100%;
+    margin-bottom: 5%;
+
+}
+
+.logo{
+    margin-top: 2%;
+    width: 14%;
+}
+
+.hero > img {
+    width: auto;
+    margin-right: 20px;
+}
+
+.content {
+    padding: 4%;
+}
+
+h3{
+    font-size:2.5rem;
+    font-family:"Poppins" ;
+    color: white;
+    margin-bottom: 5%;
+
+}
+
+p{
+    font-size:1rem;
+    font-family:"Poppins" ;
+    color: white;
+    margin-bottom: 5%;
+}
+
+
+button {
+    background-color: white;
+    color:hsl(257, 40%, 49%);
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 40px;
+    height: 50px;
+    width: 200px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+
+}
+
+button:hover {
+    background-color: hsl(300, 69%, 71%);
+    box-shadow: 0px 15px 20px rgba(12, 80, 53, 0.4);
+    color: #fff;
+    transform: translateY(-5px);
+  }
+
+
+@media (max-width:780px) {
+    
+    body {
+        background-image: url("images/bg-mobile.svg");
+        background-repeat: no-repeat;
+        background-color: hsl(257, 40%, 49%);
+        padding: 5%;
+
+    
+    }
+    
+    .container{
+        display: initial;
+    }
+    
+    header{
+        height: 9vh;
+        width: 100%;
+        margin-bottom: 5%;
+    
+    }
+    
+    .logo{
+        margin-top: 2%;
+        width: 34%;
+    }
+    
+    .hero > img {
+        width: 100%;
+        margin-right: 20px;
+        
+    }
+    
+    .content {
+        margin-top: 10%;
+        padding: 5%;
+        text-align: center;
+    }
+    
+    h3{
+        font-size:1.5rem;
+    
+    }
+    
+    p{
+        font-size:0.9rem;
+        font-family:"Poppins" ;
+        color: white;
+        margin-bottom: 8%;
+    }
+
+    button {
+        
+        font-size: 0.9rem;
+        height: 50px;
+        width: 230px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    
+    }
+
+}
