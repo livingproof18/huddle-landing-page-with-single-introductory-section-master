@@ -1,4 +1,4 @@
-Making of Design
+Making of Design; repo updated
 
 Phone(Mobile Size) {
     1. Body with the colour: - Very dark blue (main background):hsl(300, 69%, 71%);
